@@ -1,2 +1,3 @@
 # paintmagics
-Paint magics is coolwebsite
+
+Paint magics is cool website
