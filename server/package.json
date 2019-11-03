@@ -4,11 +4,8 @@
   "description": "paint magics is a web app which is developed for paint lovers!",
   "main": "index.js",
   "scripts": {
-    "client-install": "npm install --prefix client",
     "start": "node index.js",
-    "server": "nodemon index.js",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "server": "nodemon index.js"
   },
   "keywords": [
     "paints",
@@ -18,8 +15,8 @@
   "author": "Vish-master",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^3.0.6",
     "body-parser": "^1.19.0",
-    "concurrently": "^5.0.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
