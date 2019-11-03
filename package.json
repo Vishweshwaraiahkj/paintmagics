@@ -15,7 +15,7 @@
     "magic-paints",
     "paint-magic"
   ],
-  "author": "VishMaster",
+  "author": "Vish-master",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^3.0.6",
